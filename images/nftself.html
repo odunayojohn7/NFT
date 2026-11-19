@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+      <style type="text/tailwindcss">
+
+      @theme {
+        --color-Bluelight: hsl(215, 51%, 70%);
+        --color-Cyan400: hsl(178, 100%, 50%);
+       --color-Bluemain: hsl(217, 54%, 11%);
+       --color-Bluecard: hsl(216, 50%, 16%);
+       --c0lor-Blueline: hsl(215, 32%, 27%);
+        --color-White: hsl(0, 0%, 100%);
+        --font-family: "Outfit", sans-serif;
+  
+      }
+    </style>
+</head>
+<body class="bg-Bluemain flex flex-col items-center p-6 min-h-screen justify-center">
+    <div class="max-w-sm bg-Bluecard p-6 rounded-[15px] " >
+        <div class="relative group">
+             <img class="rounded-xl shadow-lg" src="./image-equilibrium.jpg" alt="">
+
+             <div class="absolute top-0 flex items-center justify-center opacity-0 group-hover:opacity-80 hover:bg-Cyan400/60 w-full h-full rounded-[12px] ">
+                 <img src="./icon-view.svg" alt="">
+    
+             </div>
+
+        </div>
+
+         <div class="space-y-3  ">
+
+                  <h1 class="text-white text-xl font-bold cursor-pointer hover:text-Cyan">Equilibrium #3429</h1>
+
+            <p class="text-Bluelight ">Our Equilibrium collection promotes balance and calm.</p>
+               
+                <div class=" flex justify-between">
+                    <div class="flex items-center gap-2">
+                    <img src="./icon-ethereum.svg" alt="">
+                    <p class="text-Cyan">0.041ETH</p>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <img src="./icon-clock.svg" alt="">
+                    <p class="text-Bluelight">3 days left</p>
+                </div>
+
+                </div>
+           
+            <hr class="border-Bluelight">
+            <div class="flex items-center gap-3">
+                <img class="border w-7 rounded-full border-white" src="./image-avatar.png" alt="">
+                <p class="text-Bluelight">Creation of <span class=" text-white cursor-pointer hover:text-Cyan">Jules Wyvern</span>
+                </p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
